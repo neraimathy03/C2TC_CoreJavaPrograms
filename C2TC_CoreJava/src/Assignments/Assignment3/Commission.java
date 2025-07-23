@@ -1,8 +1,8 @@
-package Assignments.constructor;
+package Assignments.Assignment3;
 import java.util.Scanner;
 
 public class Commission {
-    // Data Members
+	// Data Members
     private String name;
     private String address;
     private String phone;

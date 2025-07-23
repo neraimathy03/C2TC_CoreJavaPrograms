@@ -1,4 +1,4 @@
-package Assignments.constructor;
+package Assignments.Assignment3;
 
 public class Student {
 	// Default constructor
@@ -9,4 +9,5 @@ public class Student {
     public static void main(String[] args) {
         Student s = new Student(); // Constructor will be invoked here
     }
+
 }
