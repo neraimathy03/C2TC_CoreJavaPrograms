@@ -6,7 +6,6 @@ public class Assignment2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Product[] products = new Product[4];
-
         // Collect details for 4 products
         for (int i = 0; i < 4; i++) {
             System.out.println("Enter details for product " + (i + 1) + ":");
@@ -30,7 +29,6 @@ public class Assignment2 {
         sc.close();
     }
 }
-
 // 👉 Inner class (not public)
 class Product {
     String name;
@@ -50,4 +48,3 @@ class Product {
         System.out.println("----------------------");
     }
 }
-
